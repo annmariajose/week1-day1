@@ -97,8 +97,37 @@ input[type="submit"] {
     width: 100px;
 }
 
+main #album #photo {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 2em;
+}
+
 main #album #photo img {
     width: 400px;
+    height: 280px;
+}
+
+main #album #photo .description {
+    visibility: hidden;
+    position: absolute;
+    width: 60%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 1em;
+    text-align: center;
+}
+
+main #album #photo:hover .description{
+    visibility: visible;
+}
+
+main #album #photo .caption {
+    text-align: center;
+    text-transform: uppercase;
 }
 
 footer {
