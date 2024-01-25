@@ -97,19 +97,19 @@ input[type="submit"] {
     width: 100px;
 }
 
-main #album #photo {
+main #album [id^=photo] {
     position: relative;
     display: inline-block;
     cursor: pointer;
     margin-top: 2em;
 }
 
-main #album #photo img {
+main #album [id^=photo] img {
     width: 400px;
     height: 280px;
 }
 
-main #album #photo .description {
+main #album [id^=photo] .description {
     visibility: hidden;
     position: absolute;
     width: 60%;
@@ -121,11 +121,11 @@ main #album #photo .description {
     text-align: center;
 }
 
-main #album #photo:hover .description{
+main #album [id^=photo]:hover .description{
     visibility: visible;
 }
 
-main #album #photo .caption {
+main #album [id^=photo] .caption {
     text-align: center;
     text-transform: uppercase;
 }

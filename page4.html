@@ -42,8 +42,9 @@
             var fileNames = []; //Declare an empty element to store image file names
             var imageList = []; //Declare an empty array to store html list that contain an image
             var image; //Declare an empty variable to store the assembled image list codes
-            var openlist = "<li id='photo'>"; //Declare a variable to contain open list tag
-            var closeList = "</li>"; //Declare a variable to contain close list tag
+            var openListTag = "<li id='photo"; //Declare a variable to contain open list tag
+            var openListIdCloseTag = "'>"
+            var closeListTag = "</li>"; //Declare a variable to contain close list tag
             var openCaptionTag = "<p class='caption'>";
             var closeCaptionTag = "</p>";
             var openDescTag = "<p class='description'>";
@@ -82,7 +83,7 @@
                 caption = openCaptionTag + captionTexts[i] + closeCaptionTag;
                 description = openDescTag + descTexts[i] + closeDescTag;
                 photos.push("<img src='images/" + fileNames[i] + ".jpg'>"); //Assemble file name into image element and store in an array
-                image = openlist + photos[i] + description + caption + closeList; //Assemble image element from array with list elements and store in a variable
+                image = openListTag + (i + 1) + openListIdCloseTag + photos[i] + description + caption + closeListTag; //Assemble image element from array with list elements and store in a variable
                 imageList.push(image); //Store(push) the assembled list codes into an array
             }
 
