@@ -107,6 +107,15 @@ function hideDescription(object) {
     }
 }
 
+function hideAllDescriptions() {
+    var allDescriptions = document.getElementsByClassName("description");
+    for (var i = 0; i < allDescriptions.length; i++) {
+        if (allDescriptions[i].style.visibility == "visible") {
+            allDescriptions[i].style.visibility = "hidden";
+        }
+    }
+}
+
 function showInformationBox(event) {
     var allCaptions = document.getElementsByClassName("caption");
     var parent = event.target.parentElement;
@@ -127,4 +136,6 @@ function showInformationBox(event) {
 function closeInfoBox() {
     var informationBox = document.getElementById("informationBox");
     informationBox.style.visibility = "hidden";
+    //Hide all visible descriptions
+    hideAllDescriptions();
 }
