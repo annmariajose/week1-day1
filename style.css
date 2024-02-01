@@ -128,13 +128,14 @@ main #gallery #album [id^=photo] .caption {
 }
 
 main #gallery #informationBox {
-    position: absolute;
+    position: fixed;
     visibility: hidden;
     width: 25em;
-    height: 20em;
+    height: 22em;
     z-index: 10;
+    top: 50%;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.9);
     border-radius: 1em;
     color: white;
@@ -143,6 +144,7 @@ main #gallery #informationBox {
 
 main #gallery #informationBox p {
     height: 8em;
+    padding-top: 1em;
 }
 
 main #gallery #informationBox a {
