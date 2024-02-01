@@ -48,16 +48,16 @@ var descTexts = [
     "Mesmerizing display of lights in the winter sky"
 ];
 var infoTexts = [
-    "Snow-kissed magic in a serene landscape",
-    "Delicate charm in the icy beauty of winter",
-    "Captivating scenes of nature's snowy enchantment",
-    "Tranquil beauty wrapped in winter's gentle hold",
-    "Frozen serenity reflected on still, icy waters",
-    "Nature's artistry in a crystalline winter spectacle",
-    "Calm and peace under a blanket of snow",
-    "Morning hues painting the frosty winter sky",
-    "Sparkling brilliance in individual snow crystals",
-    "Mesmerizing display of lights in the winter sky"
+    "Snow-kissed magic in a serene landscape creates a winter wonderland where nature's beauty is adorned in a pristine blanket of white, transforming the world into a captivating and enchanting spectacle.",
+    "Delicate charm is found in the icy beauty of winter, where frosty elegance unfolds in every glistening snowflake, creating a world where nature's intricacies are displayed with graceful sophistication.",
+    "Captivating scenes of nature's snowy enchantment come to life, as each snowfall weaves a spellbinding tapestry, turning ordinary landscapes into mesmerizing vistas filled with the hushed allure of winter.",
+    "Tranquil beauty is wrapped in winter's gentle hold, where the crisp air and pristine snow come together to create a serene atmosphere that invites a sense of calm and introspection.",
+    "Frozen serenity is reflected on still, icy waters, turning a once lively lake into a tranquil masterpiece where the frozen surface mirrors the surrounding winter landscape with crystal-clear precision.",
+    "Nature's artistry is showcased in a crystalline winter spectacle, where frozen beauty takes center stage, transforming the world into a breathtaking display of intricate ice formations and glistening snow.",
+    "Calm and peace reign under a blanket of snow, as the world is blanketed in a serene hush, creating a landscape of snowy tranquility that invites contemplation and a connection with nature.",
+    "Morning hues paint the frosty winter sky, as the sun rises over a landscape adorned in snow, casting a warm glow on the icy scenery and heralding the start of a new day in winter's embrace.",
+    "Sparkling brilliance is found in individual snow crystals, each glistening snowflake a unique masterpiece, contributing to the overall beauty of winter and adding a touch of magic to the cold, crisp air.",
+    "Mesmerizing display of lights fills the winter sky, as the dance of auroras or city lights against the snowy backdrop creates a captivating spectacle, turning the night into a magical and enchanting experience."
 ];
 
 //Create a loop to create 6 images starting with index of 0

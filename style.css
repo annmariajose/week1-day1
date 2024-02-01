@@ -130,6 +130,29 @@ main #gallery #album [id^=photo] .caption {
 main #gallery #informationBox {
     position: absolute;
     visibility: hidden;
+    width: 25em;
+    height: 20em;
+    z-index: 10;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 1em;
+    color: white;
+    padding: 0.5em 1.5em;
+}
+
+main #gallery #informationBox p {
+    height: 8em;
+}
+
+main #gallery #informationBox a {
+    text-decoration: none;
+    display: block;
+    color: #ede8a6;
+    margin-left: -2em;
+    padding-top: 1em;
+    font-weight: bold;
+    text-align: center;
 }
 
 footer {
