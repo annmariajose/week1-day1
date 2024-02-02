@@ -87,6 +87,18 @@ input[type="radio"] {
     width: 25px;
 }
 
+#contactInput {
+    visibility: hidden;
+}
+
+.email {
+    display: none;
+}
+
+.phone {
+    display: none;
+}
+
 textarea {
     width: 300px;
 }
