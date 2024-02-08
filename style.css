@@ -206,6 +206,7 @@ main #gallery #informationBox a {
 }
 
 .close {
+    font-weight: bold;
     float: right;
     cursor: pointer;
 }
